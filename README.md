@@ -2,6 +2,7 @@
 
 # 概要
 今回はビー玉迷路（アプリケーション名；Marbles Maze）を作成した。swift3.0
+![index](https://user-images.githubusercontent.com/31681741/30111167-a9645970-9347-11e7-9844-dd0ce2686f18.gif)
 また、下記の機能を実装または利用した。
 
 * 加速度センサーでビー玉を操作
