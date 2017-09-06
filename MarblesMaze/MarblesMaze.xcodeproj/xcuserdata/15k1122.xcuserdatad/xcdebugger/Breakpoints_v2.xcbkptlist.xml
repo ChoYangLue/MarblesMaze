@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MarblesMaze/GameScene.swift"
+            timestampString = "496050454.42948"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "GameScene"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MarblesMaze.GameScene.manager.getter : Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.CMMotionManager&gt;"
+                  moduleName = "MarblesMaze"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///home/15k1122/Documents/2016_ios/MarblesMaze/MarblesMaze/MarblesMaze/GameScene.swift"
+                  timestampString = "495524621.175188"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "48">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MarblesMaze.GameScene.manager.setter : Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.CMMotionManager&gt;"
+                  moduleName = "MarblesMaze"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///home/15k1122/Documents/2016_ios/MarblesMaze/MarblesMaze/MarblesMaze/GameScene.swift"
+                  timestampString = "495524621.176127"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "76">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MarblesMaze.GameScene.init (size : __C.CGSize) -&gt; MarblesMaze.GameScene"
+                  moduleName = "MarblesMaze"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///home/15k1122/Documents/2016_ios/MarblesMaze/MarblesMaze/MarblesMaze/GameScene.swift"
+                  timestampString = "495524621.176232"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "400">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MarblesMaze.GameScene.init () -&gt; MarblesMaze.GameScene"
+                  moduleName = "MarblesMaze"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///home/15k1122/Documents/2016_ios/MarblesMaze/MarblesMaze/MarblesMaze/GameScene.swift"
+                  timestampString = "495524621.176312"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "436">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MarblesMaze.GameScene.init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;MarblesMaze.GameScene&gt;"
+                  moduleName = "MarblesMaze"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///home/15k1122/Documents/2016_ios/MarblesMaze/MarblesMaze/MarblesMaze/GameScene.swift"
+                  timestampString = "495524621.176382"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "444">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MarblesMaze/GameScene.swift"
+            timestampString = "496122843.923012"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "54"
+            endingLineNumber = "54"
+            landmarkName = "GameScene"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MarblesMaze.GameScene.time.getter : Swift.Int"
+                  moduleName = "MarblesMaze"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///home/15k1122/Documents/2016_ios/MarblesMaze/MarblesMaze/MarblesMaze/GameScene.swift"
+                  timestampString = "495700755.657226"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "49"
+                  endingLineNumber = "49"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MarblesMaze.GameScene.time.setter : Swift.Int"
+                  moduleName = "MarblesMaze"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///home/15k1122/Documents/2016_ios/MarblesMaze/MarblesMaze/MarblesMaze/GameScene.swift"
+                  timestampString = "495700755.657357"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "49"
+                  endingLineNumber = "49"
+                  offsetFromSymbolStart = "32">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MarblesMaze.GameScene.init (size : __C.CGSize) -&gt; MarblesMaze.GameScene"
+                  moduleName = "MarblesMaze"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///home/15k1122/Documents/2016_ios/MarblesMaze/MarblesMaze/MarblesMaze/GameScene.swift"
+                  timestampString = "495700755.657437"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "49"
+                  endingLineNumber = "49"
+                  offsetFromSymbolStart = "532">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MarblesMaze.GameScene.init () -&gt; MarblesMaze.GameScene"
+                  moduleName = "MarblesMaze"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///home/15k1122/Documents/2016_ios/MarblesMaze/MarblesMaze/MarblesMaze/GameScene.swift"
+                  timestampString = "495700755.657514"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "49"
+                  endingLineNumber = "49"
+                  offsetFromSymbolStart = "716">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MarblesMaze.GameScene.init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;MarblesMaze.GameScene&gt;"
+                  moduleName = "MarblesMaze"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///home/15k1122/Documents/2016_ios/MarblesMaze/MarblesMaze/MarblesMaze/GameScene.swift"
+                  timestampString = "495700755.657588"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "49"
+                  endingLineNumber = "49"
+                  offsetFromSymbolStart = "724">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

@@ -1,0 +1,577 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7326A6341D828B0D00EE9DFB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7326A6331D828B0D00EE9DFB /* AppDelegate.swift */; };
+		7326A6361D828B0D00EE9DFB /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 7326A6351D828B0D00EE9DFB /* GameScene.sks */; };
+		7326A6381D828B0D00EE9DFB /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7326A6371D828B0D00EE9DFB /* GameScene.swift */; };
+		7326A63A1D828B0D00EE9DFB /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7326A6391D828B0D00EE9DFB /* GameViewController.swift */; };
+		7326A63D1D828B0D00EE9DFB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7326A63B1D828B0D00EE9DFB /* Main.storyboard */; };
+		7326A63F1D828B0D00EE9DFB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7326A63E1D828B0D00EE9DFB /* Assets.xcassets */; };
+		7326A6421D828B0D00EE9DFB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7326A6401D828B0D00EE9DFB /* LaunchScreen.storyboard */; };
+		7326A64D1D828B0D00EE9DFB /* MarblesMazeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7326A64C1D828B0D00EE9DFB /* MarblesMazeTests.swift */; };
+		7326A6581D828B0D00EE9DFB /* MarblesMazeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7326A6571D828B0D00EE9DFB /* MarblesMazeUITests.swift */; };
+		7326A6661D828B4B00EE9DFB /* TitleScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7326A6651D828B4B00EE9DFB /* TitleScene.swift */; };
+		7326A6681D828C1B00EE9DFB /* ResultScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7326A6671D828C1B00EE9DFB /* ResultScene.swift */; };
+		7338C2151D922A4F005DE708 /* goal.png in Resources */ = {isa = PBXBuildFile; fileRef = 7338C2141D922A4F005DE708 /* goal.png */; };
+		7363E1021D890A29003A85B1 /* title0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7363E1011D890A29003A85B1 /* title0.jpg */; };
+		7363E1041D890BA3003A85B1 /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7363E1031D890BA3003A85B1 /* background.jpg */; };
+		7363E10A1D891822003A85B1 /* BGM00.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7363E1091D891822003A85B1 /* BGM00.mp3 */; };
+		7379B8BB1D8A77930081A892 /* biidama_greenblue64.png in Resources */ = {isa = PBXBuildFile; fileRef = 7379B8BA1D8A77930081A892 /* biidama_greenblue64.png */; };
+		7379B8BD1D8A77CD0081A892 /* wall64.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7379B8BC1D8A77CD0081A892 /* wall64.jpg */; };
+		7379B8BF1D8A77E10081A892 /* BGM02_main.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7379B8BE1D8A77E10081A892 /* BGM02_main.mp3 */; };
+		7379B8C11D8A7F580081A892 /* wall2.png in Resources */ = {isa = PBXBuildFile; fileRef = 7379B8C01D8A7F580081A892 /* wall2.png */; };
+		7379B8C31D8A823A0081A892 /* wall3.png in Resources */ = {isa = PBXBuildFile; fileRef = 7379B8C21D8A823A0081A892 /* wall3.png */; };
+		7379B8C51D8A82C80081A892 /* hole.png in Resources */ = {isa = PBXBuildFile; fileRef = 7379B8C41D8A82C80081A892 /* hole.png */; };
+		7395E5A61D91202B00C579A1 /* BGM03.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7395E5A51D91202B00C579A1 /* BGM03.mp3 */; };
+		73FD3CFC1D86725E00B0885C /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73FD3CFB1D86725E00B0885C /* CoreMotion.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7326A6491D828B0D00EE9DFB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7326A6281D828B0D00EE9DFB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7326A62F1D828B0D00EE9DFB;
+			remoteInfo = MarblesMaze;
+		};
+		7326A6541D828B0D00EE9DFB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7326A6281D828B0D00EE9DFB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7326A62F1D828B0D00EE9DFB;
+			remoteInfo = MarblesMaze;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7326A6301D828B0D00EE9DFB /* MarblesMaze.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarblesMaze.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7326A6331D828B0D00EE9DFB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7326A6351D828B0D00EE9DFB /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		7326A6371D828B0D00EE9DFB /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		7326A6391D828B0D00EE9DFB /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		7326A63C1D828B0D00EE9DFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7326A63E1D828B0D00EE9DFB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7326A6411D828B0D00EE9DFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7326A6431D828B0D00EE9DFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7326A6481D828B0D00EE9DFB /* MarblesMazeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarblesMazeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7326A64C1D828B0D00EE9DFB /* MarblesMazeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarblesMazeTests.swift; sourceTree = "<group>"; };
+		7326A64E1D828B0D00EE9DFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7326A6531D828B0D00EE9DFB /* MarblesMazeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarblesMazeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7326A6571D828B0D00EE9DFB /* MarblesMazeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarblesMazeUITests.swift; sourceTree = "<group>"; };
+		7326A6591D828B0E00EE9DFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7326A6651D828B4B00EE9DFB /* TitleScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TitleScene.swift; sourceTree = "<group>"; };
+		7326A6671D828C1B00EE9DFB /* ResultScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultScene.swift; sourceTree = "<group>"; };
+		7338C2141D922A4F005DE708 /* goal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = goal.png; sourceTree = "<group>"; };
+		7363E1011D890A29003A85B1 /* title0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = title0.jpg; sourceTree = "<group>"; };
+		7363E1031D890BA3003A85B1 /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpg; sourceTree = "<group>"; };
+		7363E1091D891822003A85B1 /* BGM00.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = BGM00.mp3; sourceTree = "<group>"; };
+		7379B8BA1D8A77930081A892 /* biidama_greenblue64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = biidama_greenblue64.png; sourceTree = "<group>"; };
+		7379B8BC1D8A77CD0081A892 /* wall64.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wall64.jpg; sourceTree = "<group>"; };
+		7379B8BE1D8A77E10081A892 /* BGM02_main.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = BGM02_main.mp3; sourceTree = "<group>"; };
+		7379B8C01D8A7F580081A892 /* wall2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wall2.png; sourceTree = "<group>"; };
+		7379B8C21D8A823A0081A892 /* wall3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wall3.png; sourceTree = "<group>"; };
+		7379B8C41D8A82C80081A892 /* hole.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hole.png; sourceTree = "<group>"; };
+		7395E5A51D91202B00C579A1 /* BGM03.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = BGM03.mp3; sourceTree = "<group>"; };
+		73FD3CFB1D86725E00B0885C /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7326A62D1D828B0D00EE9DFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73FD3CFC1D86725E00B0885C /* CoreMotion.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7326A6451D828B0D00EE9DFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7326A6501D828B0D00EE9DFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7326A6271D828B0D00EE9DFB = {
+			isa = PBXGroup;
+			children = (
+				73FD3CFB1D86725E00B0885C /* CoreMotion.framework */,
+				7326A6321D828B0D00EE9DFB /* MarblesMaze */,
+				7326A64B1D828B0D00EE9DFB /* MarblesMazeTests */,
+				7326A6561D828B0D00EE9DFB /* MarblesMazeUITests */,
+				7326A6311D828B0D00EE9DFB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7326A6311D828B0D00EE9DFB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7326A6301D828B0D00EE9DFB /* MarblesMaze.app */,
+				7326A6481D828B0D00EE9DFB /* MarblesMazeTests.xctest */,
+				7326A6531D828B0D00EE9DFB /* MarblesMazeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7326A6321D828B0D00EE9DFB /* MarblesMaze */ = {
+			isa = PBXGroup;
+			children = (
+				7326A6331D828B0D00EE9DFB /* AppDelegate.swift */,
+				7326A6391D828B0D00EE9DFB /* GameViewController.swift */,
+				7326A6351D828B0D00EE9DFB /* GameScene.sks */,
+				7326A6651D828B4B00EE9DFB /* TitleScene.swift */,
+				7326A6371D828B0D00EE9DFB /* GameScene.swift */,
+				7326A6671D828C1B00EE9DFB /* ResultScene.swift */,
+				7363E1011D890A29003A85B1 /* title0.jpg */,
+				7363E1031D890BA3003A85B1 /* background.jpg */,
+				7379B8BA1D8A77930081A892 /* biidama_greenblue64.png */,
+				7379B8BC1D8A77CD0081A892 /* wall64.jpg */,
+				7379B8C01D8A7F580081A892 /* wall2.png */,
+				7379B8C21D8A823A0081A892 /* wall3.png */,
+				7379B8C41D8A82C80081A892 /* hole.png */,
+				7338C2141D922A4F005DE708 /* goal.png */,
+				7363E1091D891822003A85B1 /* BGM00.mp3 */,
+				7379B8BE1D8A77E10081A892 /* BGM02_main.mp3 */,
+				7395E5A51D91202B00C579A1 /* BGM03.mp3 */,
+				7326A63B1D828B0D00EE9DFB /* Main.storyboard */,
+				7326A63E1D828B0D00EE9DFB /* Assets.xcassets */,
+				7326A6401D828B0D00EE9DFB /* LaunchScreen.storyboard */,
+				7326A6431D828B0D00EE9DFB /* Info.plist */,
+			);
+			path = MarblesMaze;
+			sourceTree = "<group>";
+		};
+		7326A64B1D828B0D00EE9DFB /* MarblesMazeTests */ = {
+			isa = PBXGroup;
+			children = (
+				7326A64C1D828B0D00EE9DFB /* MarblesMazeTests.swift */,
+				7326A64E1D828B0D00EE9DFB /* Info.plist */,
+			);
+			path = MarblesMazeTests;
+			sourceTree = "<group>";
+		};
+		7326A6561D828B0D00EE9DFB /* MarblesMazeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7326A6571D828B0D00EE9DFB /* MarblesMazeUITests.swift */,
+				7326A6591D828B0E00EE9DFB /* Info.plist */,
+			);
+			path = MarblesMazeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7326A62F1D828B0D00EE9DFB /* MarblesMaze */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7326A65C1D828B0E00EE9DFB /* Build configuration list for PBXNativeTarget "MarblesMaze" */;
+			buildPhases = (
+				7326A62C1D828B0D00EE9DFB /* Sources */,
+				7326A62D1D828B0D00EE9DFB /* Frameworks */,
+				7326A62E1D828B0D00EE9DFB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MarblesMaze;
+			productName = MarblesMaze;
+			productReference = 7326A6301D828B0D00EE9DFB /* MarblesMaze.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7326A6471D828B0D00EE9DFB /* MarblesMazeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7326A65F1D828B0E00EE9DFB /* Build configuration list for PBXNativeTarget "MarblesMazeTests" */;
+			buildPhases = (
+				7326A6441D828B0D00EE9DFB /* Sources */,
+				7326A6451D828B0D00EE9DFB /* Frameworks */,
+				7326A6461D828B0D00EE9DFB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7326A64A1D828B0D00EE9DFB /* PBXTargetDependency */,
+			);
+			name = MarblesMazeTests;
+			productName = MarblesMazeTests;
+			productReference = 7326A6481D828B0D00EE9DFB /* MarblesMazeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7326A6521D828B0D00EE9DFB /* MarblesMazeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7326A6621D828B0E00EE9DFB /* Build configuration list for PBXNativeTarget "MarblesMazeUITests" */;
+			buildPhases = (
+				7326A64F1D828B0D00EE9DFB /* Sources */,
+				7326A6501D828B0D00EE9DFB /* Frameworks */,
+				7326A6511D828B0D00EE9DFB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7326A6551D828B0D00EE9DFB /* PBXTargetDependency */,
+			);
+			name = MarblesMazeUITests;
+			productName = MarblesMazeUITests;
+			productReference = 7326A6531D828B0D00EE9DFB /* MarblesMazeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7326A6281D828B0D00EE9DFB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = 15k1122;
+				TargetAttributes = {
+					7326A62F1D828B0D00EE9DFB = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 8CCTR974T9;
+					};
+					7326A6471D828B0D00EE9DFB = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 7326A62F1D828B0D00EE9DFB;
+					};
+					7326A6521D828B0D00EE9DFB = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 7326A62F1D828B0D00EE9DFB;
+					};
+				};
+			};
+			buildConfigurationList = 7326A62B1D828B0D00EE9DFB /* Build configuration list for PBXProject "MarblesMaze" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7326A6271D828B0D00EE9DFB;
+			productRefGroup = 7326A6311D828B0D00EE9DFB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7326A62F1D828B0D00EE9DFB /* MarblesMaze */,
+				7326A6471D828B0D00EE9DFB /* MarblesMazeTests */,
+				7326A6521D828B0D00EE9DFB /* MarblesMazeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7326A62E1D828B0D00EE9DFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7395E5A61D91202B00C579A1 /* BGM03.mp3 in Resources */,
+				7326A6361D828B0D00EE9DFB /* GameScene.sks in Resources */,
+				7379B8BB1D8A77930081A892 /* biidama_greenblue64.png in Resources */,
+				7379B8C11D8A7F580081A892 /* wall2.png in Resources */,
+				7363E1021D890A29003A85B1 /* title0.jpg in Resources */,
+				7379B8BD1D8A77CD0081A892 /* wall64.jpg in Resources */,
+				7326A6421D828B0D00EE9DFB /* LaunchScreen.storyboard in Resources */,
+				7326A63F1D828B0D00EE9DFB /* Assets.xcassets in Resources */,
+				7363E10A1D891822003A85B1 /* BGM00.mp3 in Resources */,
+				7326A63D1D828B0D00EE9DFB /* Main.storyboard in Resources */,
+				7379B8BF1D8A77E10081A892 /* BGM02_main.mp3 in Resources */,
+				7338C2151D922A4F005DE708 /* goal.png in Resources */,
+				7363E1041D890BA3003A85B1 /* background.jpg in Resources */,
+				7379B8C31D8A823A0081A892 /* wall3.png in Resources */,
+				7379B8C51D8A82C80081A892 /* hole.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7326A6461D828B0D00EE9DFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7326A6511D828B0D00EE9DFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7326A62C1D828B0D00EE9DFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7326A6381D828B0D00EE9DFB /* GameScene.swift in Sources */,
+				7326A63A1D828B0D00EE9DFB /* GameViewController.swift in Sources */,
+				7326A6341D828B0D00EE9DFB /* AppDelegate.swift in Sources */,
+				7326A6681D828C1B00EE9DFB /* ResultScene.swift in Sources */,
+				7326A6661D828B4B00EE9DFB /* TitleScene.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7326A6441D828B0D00EE9DFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7326A64D1D828B0D00EE9DFB /* MarblesMazeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7326A64F1D828B0D00EE9DFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7326A6581D828B0D00EE9DFB /* MarblesMazeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7326A64A1D828B0D00EE9DFB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7326A62F1D828B0D00EE9DFB /* MarblesMaze */;
+			targetProxy = 7326A6491D828B0D00EE9DFB /* PBXContainerItemProxy */;
+		};
+		7326A6551D828B0D00EE9DFB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7326A62F1D828B0D00EE9DFB /* MarblesMaze */;
+			targetProxy = 7326A6541D828B0D00EE9DFB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7326A63B1D828B0D00EE9DFB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7326A63C1D828B0D00EE9DFB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7326A6401D828B0D00EE9DFB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7326A6411D828B0D00EE9DFB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7326A65A1D828B0E00EE9DFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7326A65B1D828B0E00EE9DFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7326A65D1D828B0E00EE9DFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = MarblesMaze/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.ac.hosei.k.cis.15k1122.mm.MarblesMaze;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7326A65E1D828B0E00EE9DFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = MarblesMaze/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.ac.hosei.k.cis.15k1122.mm.MarblesMaze;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7326A6601D828B0E00EE9DFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = MarblesMazeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.ac.hosei.k.cis.15k1122.mm.MarblesMazeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MarblesMaze.app/MarblesMaze";
+			};
+			name = Debug;
+		};
+		7326A6611D828B0E00EE9DFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MarblesMazeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.ac.hosei.k.cis.15k1122.mm.MarblesMazeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MarblesMaze.app/MarblesMaze";
+			};
+			name = Release;
+		};
+		7326A6631D828B0E00EE9DFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = MarblesMazeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.ac.hosei.k.cis.15k1122.mm.MarblesMazeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MarblesMaze;
+			};
+			name = Debug;
+		};
+		7326A6641D828B0E00EE9DFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MarblesMazeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.ac.hosei.k.cis.15k1122.mm.MarblesMazeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MarblesMaze;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7326A62B1D828B0D00EE9DFB /* Build configuration list for PBXProject "MarblesMaze" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7326A65A1D828B0E00EE9DFB /* Debug */,
+				7326A65B1D828B0E00EE9DFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7326A65C1D828B0E00EE9DFB /* Build configuration list for PBXNativeTarget "MarblesMaze" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7326A65D1D828B0E00EE9DFB /* Debug */,
+				7326A65E1D828B0E00EE9DFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7326A65F1D828B0E00EE9DFB /* Build configuration list for PBXNativeTarget "MarblesMazeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7326A6601D828B0E00EE9DFB /* Debug */,
+				7326A6611D828B0E00EE9DFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7326A6621D828B0E00EE9DFB /* Build configuration list for PBXNativeTarget "MarblesMazeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7326A6631D828B0E00EE9DFB /* Debug */,
+				7326A6641D828B0E00EE9DFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7326A6281D828B0D00EE9DFB /* Project object */;
+}
