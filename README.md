@@ -1,3 +1,4 @@
+
 # MarblesMaze
 
 # 概要
@@ -30,6 +31,8 @@ manager.accelerometerUpdateInterval = 0.01
 
 Spritekitの当たり判定は基本的にBitMaskを使い、面倒な座標計算をしなくてよい。BitMaskとは二進数のビット列をシフトしてビット演算子“｜”（和）を使ってパターンを判別（当たったかどうか）している。didBeginContactメソッドで何が何に衝突したかなどの情報を受け取ることができる。注意すべきなのはGameSceneクラスにSKPhysicsContactDelegateの記述を追加しないとdidBeginContactメソッドでデリゲートを受け取ることができない。SKPhysicsContactDelegateの記述を追加しなくても跳ね返り処理ができてしまうのでdidBeginContactメソッドでデリゲートが受け取れない原因がわからず苦戦した。
 
+# その他
+2年夏作成
 
 # 参考文献
 当たり判定
